@@ -1,17 +1,16 @@
 import React from 'react';
 import Navigation from '../Navigation/Navigation';
 import ContentSection from '../ContentSection/ContentSection';
-import Header from '../Header/Header';
+
 import Footer from '../Footer/Footer';
-import classes from './Layout.css';
+import './Layout.css';
 
 const Layout = () => {
-  return (<div className={classes.Layout}>
+  return (<div className="Layout">
       <Navigation></Navigation>
       <ContentSection>
-          <Header></Header>
       </ContentSection>
-      <Footer></Footer>
+      <Footer/>
   </div>);
 }
 export default Layout;
