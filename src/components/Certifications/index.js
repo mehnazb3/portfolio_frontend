@@ -23,7 +23,7 @@ const Certifications = () => {
     },
   ]
   return (
-    <CertificationsWrapper id="about_me">
+    <CertificationsWrapper id="certifications">
       <Row gutter={[32, 32]} style={{ justifyContent: "flex-end" }}>
         <Col span={6}>
           <b>Certifications</b>

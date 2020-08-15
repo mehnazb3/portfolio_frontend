@@ -1,5 +1,5 @@
 import React from "react"
-import { ListWrapper } from "./styles"
+import { ListWrapper, Logo } from "./styles"
 const Navigation = () => {
   return (
     <header
@@ -7,10 +7,14 @@ const Navigation = () => {
         position: "fixed",
         width: "90%",
         top: "0%",
+        display: 'inline',
         backgroundColor: "#fff",
         zIndex: "1000",
       }}
     >
+      <Logo>
+        M.Bano
+      </Logo>
       <nav>
         <ListWrapper>
           <li>

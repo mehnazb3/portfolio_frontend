@@ -15,3 +15,7 @@ export const DegreeWrapper = styled.section`
     }
   }
 `
+
+export const CertificationsWrapper = styled.div`
+
+`;

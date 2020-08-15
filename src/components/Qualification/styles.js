@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
 export const QualificationWrapper = styled.section`
-  margin-top: 18%;
+  margin-top: 50px;
+  text-align: center;
   & .ant-progress-text {
     font-size: 13px;
   }

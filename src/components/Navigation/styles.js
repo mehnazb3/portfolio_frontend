@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const ListWrapper = styled.ul`
   text-align: center;
+  float: right;
   & li {
     list-style: none;
     display: inline-block;
@@ -23,3 +24,11 @@ export const ListWrapper = styled.ul`
     }
   }
 `
+export const Logo = styled.div`
+  float: left;
+  color: #21ceb5;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Alex Brush', cursive;
+`;

@@ -13,7 +13,9 @@ const ContentSection = () => {
       <Qualification />
       <WorkExperience />
       <Degree />
-      <Certifications />
+      {/* <Certifications /> */}
+      {/* TODO - */}
+      {/* 1. What I do */}
       {/* <ResumeBuilder></ResumeBuilder> */}
     </Aux>
   )

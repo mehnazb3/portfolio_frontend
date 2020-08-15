@@ -10,13 +10,17 @@ import {
   TwitterSquareFilled,
   MailFilled,
   InstagramFilled,
+  ToolOutlined
 } from "@ant-design/icons"
-import { UserImageWrapper, ProfileWrapper } from "./styles"
+import { UserImageWrapper, IntroText } from "./styles"
 const UserProfile = () => {
   return (
     <section>
       <UserImageWrapper>
-        <button>Download CV</button>
+        <IntroText>
+          Hi, I'm<br/> <b>Mehnaz Bano</b><br/>I code cool websites.<ToolOutlined />
+        </IntroText>
+        {/* <button>Download CV</button>
         <ProfileWrapper>
           <img src="/assets/profile.png" />
           <h2>
@@ -71,7 +75,7 @@ const UserProfile = () => {
               </a>
             </li>
           </ul>
-        </ProfileWrapper>
+        </ProfileWrapper> */}
       </UserImageWrapper>
     </section>
   )
