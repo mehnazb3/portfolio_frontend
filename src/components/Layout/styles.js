@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 export const LayoutWrapper = styled.div`
   background-color: #fff;
@@ -18,4 +18,4 @@ export const LayoutWrapper = styled.div`
     background-color: #efefee;
     border-radius: 20px;
   }
-`;
+`

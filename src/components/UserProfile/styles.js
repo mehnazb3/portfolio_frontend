@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 export const UserImageWrapper = styled.div`
   height: 400px;
   // background-image: url('/assets/header-tech.jpg');
@@ -33,7 +33,7 @@ export const UserImageWrapper = styled.div`
     font-weight: 700;
     right: 15%;
   }
-`;
+`
 
 export const ProfileWrapper = styled.div`
   position: absolute;
@@ -58,4 +58,4 @@ export const ProfileWrapper = styled.div`
       filter: grayscale(100%);
     }
   }
-`;
+`

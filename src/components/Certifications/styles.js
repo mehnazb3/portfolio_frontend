@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
 export const CertificationsWrapper = styled.section`
   & .ant-list-item-meta:hover {
@@ -6,4 +6,4 @@ export const CertificationsWrapper = styled.section`
       transform: scale(1.2);
     }
   }
-`;
+`

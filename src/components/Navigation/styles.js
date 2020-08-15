@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
 export const ListWrapper = styled.ul`
   text-align: center;
@@ -9,18 +9,17 @@ export const ListWrapper = styled.ul`
     margin: 10px;
     transform: background-color 0.5s;
     & a {
-        color: #21CEB5;
-        font-weight: 700;
-        font-size: 14px;
-        transform: color 0.5s;
+      color: #21ceb5;
+      font-weight: 700;
+      font-size: 14px;
+      transform: color 0.5s;
     }
   }
   & li:hover {
-    background-color: #21CEB5;
+    background-color: #21ceb5;
     border-radius: 5px;
     & a {
       color: #fff;
     }
   }
-  
-`;
+`

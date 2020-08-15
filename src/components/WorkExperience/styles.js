@@ -1,8 +1,4 @@
-import styled from 'styled-components';
-export const WorkExperienceWrapper = styled.section`
+import styled from "styled-components"
+export const WorkExperienceWrapper = styled.section``
 
-`;
-
-export const CardWrapper = styled.div`
-
-`;
+export const CardWrapper = styled.div``
