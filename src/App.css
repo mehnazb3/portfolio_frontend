@@ -1,22 +1,17 @@
+/* BLUE - #4F95BD */
+/* GREEN - #21CEB5 */
+
 .App {
-  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  /* background-color: #f1f1f1; */
+  height: inherit;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.App-logo {
-  /* height: 40vmin; */
-}
-
-.App-header {
-  background-color: #f1f1f1;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
