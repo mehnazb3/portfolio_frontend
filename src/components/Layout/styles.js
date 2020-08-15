@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const LayoutWrapper = styled.div`
-  background-color: #fff;
+  background-color: #f8f8f8;
   color: #585858;
   & ul {
     list-style: none;

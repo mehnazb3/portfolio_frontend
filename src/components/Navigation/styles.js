@@ -20,7 +20,7 @@ export const ListWrapper = styled.ul`
     background-color: #21ceb5;
     border-radius: 5px;
     & a {
-      color: #fff;
+      color: #e2e2e2;
     }
   }
 `
