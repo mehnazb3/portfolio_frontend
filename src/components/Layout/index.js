@@ -8,7 +8,7 @@ import { LayoutWrapper } from "./styles"
 const Layout = () => {
   return (
     <LayoutWrapper>
-      <Navigation></Navigation>
+      <Navigation />
       <ContentSection />
       <Footer />
     </LayoutWrapper>

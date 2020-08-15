@@ -27,7 +27,6 @@ const Navigation = () => {
           </li>
         </ListWrapper>
       </nav>
-      <div class="clearfix"></div>
     </header>
   )
 }
