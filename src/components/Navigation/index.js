@@ -27,7 +27,7 @@ const Navigation = () => {
             <a href="#education">Education</a>
           </li>
           <li>
-            <a href="#certifications">Certifications</a>
+            <a href="#education">Certifications</a>
           </li>
         </ListWrapper>
       </nav>

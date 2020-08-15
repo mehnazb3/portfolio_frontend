@@ -114,12 +114,12 @@ const WorkExperience = () => {
   return (
     <WorkExperienceWrapper id="work_experience">
       <Divider orientation={'center'}><h3>Work Experience</h3></Divider>
-      <Row gutter={[32, 32]} justify="center">
+      <Row gutter={[8, 32]} justify="center">
         <Col span={8}>{experienceCard('Tata Innoverse', getTataInnoverseDescription())}</Col>
         <Col span={8}>{experienceCard('The TataEdge', getEDGEDescription())}</Col>
         <Col span={8}>{experienceCard('Group Innovation Management', getGIMSDescription())}</Col>
       </Row>
-      <Row gutter={[32, 32]} justify="center">
+      <Row gutter={[8, 32]} justify="center">
         <Col span={8}>{experienceCard('Innovation To Implementation', getItoIDescription())}</Col>
         {/* TODO - Have description for these */}
         <Col span={8}>{experienceCard('Leasing App', getTataInnoverseDescription())}</Col>

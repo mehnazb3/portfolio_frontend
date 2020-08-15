@@ -1,12 +1,44 @@
 import React from "react"
 import { Row, Col, Divider, Progress } from "antd"
 import { QualificationWrapper, ProgressWrapper } from "./styles"
-// import { Progress, Card, Timeline, List, Avatar } from 'antd';
+import {
+  AimOutlined,
+  PhoneOutlined,
+  MailOutlined,
+  HeartOutlined,
+} from "@ant-design/icons"
 
 const Qualification = () => {
   return (
     <QualificationWrapper id="about_me">
       <Divider orientation={'center'}><h3>ABOUT ME</h3></Divider>
+      <ul>
+        <li>
+          <b>
+            <MailOutlined />
+          </b>
+          Email - mehnazb3@gmail.com
+        </li>
+        <li>
+          <b>
+            <HeartOutlined />
+          </b>
+          Date of Birth - 26 March 1993
+        </li>
+        <li>
+          <b>
+            <PhoneOutlined />
+          </b>
+          Phone - +91 9176702242
+        </li>
+        <li>
+          <b>
+            <AimOutlined />
+          </b>
+          Location - Dehrdaun, India
+        </li>
+      </ul>
+      <br/>
       <p>
         I’m very passionate about my work and an extrovert with a thirst for
           knowledge. I’m interested in Badminton, Photography and Watercolour
