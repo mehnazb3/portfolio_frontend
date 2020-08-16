@@ -20,7 +20,7 @@ const Degree = () => {
     },
     {
       name: "Ruby testing with RSPEC",
-      logo: "/assets/logos/rspec.png",
+      logo: "/assets/logos/rspec_logo.png",
     },
   ]
 

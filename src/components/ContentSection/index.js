@@ -4,7 +4,7 @@ import Aux from "../../hoc/Aux"
 import Qualification from "../Qualification"
 import WorkExperience from "../WorkExperience"
 import Degree from "../Degree"
-import Certifications from "../Certifications"
+import TechnicalSkills from "../TechnicalSkills"
 import ResumeBuilder from "../ResumeBuilder/ResumeBuilder"
 const ContentSection = () => {
   return (
@@ -13,7 +13,7 @@ const ContentSection = () => {
       <Qualification />
       <WorkExperience />
       <Degree />
-      {/* <Certifications /> */}
+      <TechnicalSkills />
       {/* TODO - */}
       {/* 1. What I do */}
       {/* <ResumeBuilder></ResumeBuilder> */}

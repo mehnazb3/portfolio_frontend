@@ -5,7 +5,7 @@ import {
   AimOutlined,
   PhoneOutlined,
   MailOutlined,
-  HeartOutlined,
+  HeartOutlined
 } from "@ant-design/icons"
 
 const Qualification = () => {
