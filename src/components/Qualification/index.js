@@ -11,7 +11,9 @@ import {
 const Qualification = () => {
   return (
     <QualificationWrapper id="about_me">
-      <Divider orientation={'center'}><h3>ABOUT ME</h3></Divider>
+      <Divider orientation={"center"}>
+        <h3>ABOUT ME</h3>
+      </Divider>
       <ul>
         <li>
           <b>
@@ -38,13 +40,12 @@ const Qualification = () => {
           Location - Dehrdaun, India
         </li>
       </ul>
-      <br/>
+      <br />
       <p>
         I’m very passionate about my work and an extrovert with a thirst for
-          knowledge. I’m interested in Badminton, Photography and Watercolour
-          painting.
-          <br /> Full Stack Developer with 6 years experience in the areas of
-          software developing and programming in Ruby On Rails
+        knowledge. I’m interested in Badminton, Photography and Watercolour painting.
+        <br /> Full Stack Developer with 6 years experience in the areas of software
+        developing and programming in Ruby On Rails
       </p>
       <ProgressWrapper>
         <Row gutter={[10, 10]}>

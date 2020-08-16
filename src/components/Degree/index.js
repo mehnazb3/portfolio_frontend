@@ -26,10 +26,12 @@ const Degree = () => {
 
   return (
     <DegreeWrapper id="education">
-      <Divider orientation={'center'}><h3>Education and Certifications</h3></Divider>
-      <Row gutter={[32, 32]} style={{justifyContent: 'center', marginTop: '50px'}}>
+      <Divider orientation={"center"}>
+        <h3>Education and Certifications</h3>
+      </Divider>
+      <Row gutter={[32, 32]} style={{ justifyContent: "center", marginTop: "50px" }}>
         <Col span={10}>
-          <Card >
+          <Card>
             <Timeline>
               <Timeline.Item color="#21CEB5">
                 <b>S.G.R.R public school</b>
@@ -47,7 +49,7 @@ const Degree = () => {
           </Card>
         </Col>
         <Col span={10}>
-          <Card >
+          <Card>
             <List
               itemLayout="horizontal"
               dataSource={certifications}
@@ -59,7 +61,7 @@ const Degree = () => {
                   />
                 </List.Item>
               )}
-              />
+            />
           </Card>
         </Col>
       </Row>

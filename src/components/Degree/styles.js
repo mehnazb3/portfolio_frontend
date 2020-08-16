@@ -16,6 +16,4 @@ export const DegreeWrapper = styled.section`
   }
 `
 
-export const CertificationsWrapper = styled.div`
-
-`;
+export const CertificationsWrapper = styled.div``

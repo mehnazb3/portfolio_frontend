@@ -30,5 +30,5 @@ export const Logo = styled.div`
   padding: 10px;
   font-size: 25px;
   font-weight: 700;
-  font-family: 'Alex Brush', cursive;
-`;
+  font-family: "Alex Brush", cursive;
+`

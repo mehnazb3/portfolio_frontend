@@ -10,7 +10,7 @@ import {
   TwitterSquareFilled,
   MailFilled,
   InstagramFilled,
-  ToolOutlined
+  ToolOutlined,
 } from "@ant-design/icons"
 import { UserImageWrapper, IntroText } from "./styles"
 const UserProfile = () => {
@@ -18,11 +18,15 @@ const UserProfile = () => {
     <section>
       <UserImageWrapper>
         <IntroText>
-          Hi, I'm<br/> <b>Mehnaz Bano</b><br/>I code cool websites.<ToolOutlined />
-          <br/><br/>
+          Hi, I'm
+          <br /> <b>Mehnaz Bano</b>
+          <br />I code cool websites.
+          <ToolOutlined />
+          <br />
+          <br />
           <ul>
             <li>
-              <a href="#" className='fb-icon'>
+              <a href="#" className="fb-icon">
                 <FacebookFilled />
               </a>
               <a href="#">

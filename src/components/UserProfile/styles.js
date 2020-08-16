@@ -1,7 +1,8 @@
 import styled from "styled-components"
 export const UserImageWrapper = styled.div`
   height: 700px;
-  background: linear-gradient( rgb(0 0 0 / 80%), rgb(0 0 0 / 72%) ), url(/assets/profile.png);
+  background: linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 72%)),
+    url(/assets/profile.png);
   background-position: center;
   position: relative;
   background-attachment: fixed;
@@ -25,4 +26,4 @@ export const IntroText = styled.div`
       color: #e2e2e2;
     }
   }
-`;
+`
